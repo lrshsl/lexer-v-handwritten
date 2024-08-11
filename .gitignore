@@ -1,0 +1,28 @@
+# Ignore everything by default
+*
+
+# Only include the following
+!.gitignore
+
+# Files produced by `v init`
+!v.mod
+!.editorconfig
+!.gitattributes
+
+!README.md
+!Doxyfile
+
+# Include all v files in src/
+!src/
+!src/**/*.v
+
+# Include everything in the examples/ directory
+!examples/
+!examples/**/*
+
+# Include everything in the docs/ directory except docs/generated/
+!docs/
+!docs/**/*
+docs/generated/
+
+
